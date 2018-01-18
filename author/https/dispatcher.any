@@ -1,0 +1,8 @@
+# name of the dispatcher
+/name "${aem_instance}"
+
+# each farm configures a set off (loadbalanced) renders
+/farms
+  {
+        $include "farms/farms-author.any"
+  }

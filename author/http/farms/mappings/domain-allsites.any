@@ -1,0 +1,11 @@
+# Entries will be compared against the "Host" request header
+# and an optional request URL prefix.
+#
+# Examples:
+#
+#   www.company.com
+#   intranet.*
+#   myhost:8888/mysite
+"${aem_GSS_Name}"
+"${aem_Status_IP}"
+
